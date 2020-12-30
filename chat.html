@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Kokoa Clone</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>04:02</span>
+      </div>
+      <div class="status-bar__column">
+        <span>402%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search"></i></span>
+        <span><i class="fas fa-comment-dots"></i></span>
+        <span><i class="fas fa-music"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chatting.html">
+        <div class="user-components">
+          <div class="user-components__column">
+            <img src="img/goood-room.jpeg" class="user-components__avatar" />
+            <div class="user-components__text">
+              <h4 class="user-components__title">Mmm</h4>
+              <h6 class="user-components__subtitle">
+                Please Check My Kokoa Account Info
+              </h6>
+            </div>
+          </div>
+          <div class="user-components__column">
+            <span class="user-components__time">04:02</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html"
+            ><span class="nav__notification badge">1</span
+            ><i class="fas fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><span class="nav__notification__2"></span
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>your screen is too big :(</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/eb6e9f765a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
